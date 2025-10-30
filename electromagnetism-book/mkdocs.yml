@@ -1,0 +1,63 @@
+# 网站信息
+site_name: 现代电磁理论深度解析
+site_author: 你的名字
+site_description: 从经典直觉到终极统一
+
+# 主题配置
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+  palette:
+    # 浅色模式
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    # 深色模式
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+# Markdown扩展配置 (这是让公式完美渲染的关键！)
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+# 额外加载MathJax脚本 (让公式显示更漂亮)
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/mathjax.js
+  
+extra_css:
+  - stylesheets/extra.css
+
+# 导航菜单
+nav:
+  - '首页': index.md
+  - '前言': 前言.md
+  - '第一章：磁的起源': 1.md
+  - '第二章：场与粒子': 2.md
+  - '第三章：对称性的胜利': 3.md
+  - '第四章：统一几何': 4.md
+  - '第五章：张量协奏': 5.md
+  - '第六章：理论顶点': 6.md
+  - '后记': 后记.md
+  

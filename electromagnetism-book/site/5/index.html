@@ -1,0 +1,935 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="从经典直觉到终极统一">
+      
+      
+        <meta name="author" content="你的名字">
+      
+      
+      
+        <link rel="prev" href="../4/">
+      
+      
+        <link rel="next" href="../6/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>第五章：张量协奏 - 现代电磁理论深度解析</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="现代电磁理论深度解析" class="md-header__button md-logo" aria-label="现代电磁理论深度解析" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            现代电磁理论深度解析
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              第五章：张量协奏
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  第一章：磁的起源
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../2/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  第二章：场与粒子
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../3/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  第三章：对称性的胜利
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../4/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  第四章：统一几何
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  第五章：张量协奏
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../6/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  第六章：理论顶点
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="现代电磁理论深度解析" class="md-nav__button md-logo" aria-label="现代电磁理论深度解析" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    现代电磁理论深度解析
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    首页
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    第一章：磁的起源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    第二章：场与粒子
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    第三章：对称性的胜利
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    第四章：统一几何
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    第五章：张量协奏
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    第五章：张量协奏
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      第五章：宇宙的交响乐——麦克斯韦方程组的张量协奏
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="第五章：宇宙的交响乐——麦克斯韦方程组的张量协奏">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      引言：从四座山峰到一座山脉
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#51-partial_mu-fmunu-mu_0-jnu" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 有源方程：\(\partial_\mu F^{\mu\nu} = \mu_0 J^\nu\)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1 有源方程：\(\partial_\mu F^{\mu\nu} = \mu_0 J^\nu\)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#511-nu0-rightarrow" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.1 逐分量推导：时间分量 (\(\nu=0\)) \(\rightarrow\) 高斯电场定律
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#512-nu123-rightarrow-" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.2 逐分量推导：空间分量 (\(\nu=1,2,3\)) \(\rightarrow\) 安培-麦克斯韦定律
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 无源方程：比安基恒等式的物理回响
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2 无源方程：比安基恒等式的物理回响">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#521-lambda-mu-nu-123-rightarrow" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2.1 纯空间分量 (\(\lambda, \mu, \nu = 1,2,3\)) \(\rightarrow\) 高斯磁定律
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#522-lambda0-mu-nu-123-rightarrow" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2.2 时空混合分量 (\(\lambda=0, \mu, \nu = 1,2,3\)) \(\rightarrow\) 法拉第电磁感应定律
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-fmu-q-fmunu-u_nu" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 四维洛伦兹力：\(f^\mu = q F^{\mu\nu} u_\nu\)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.3 四维洛伦兹力：\(f^\mu = q F^{\mu\nu} u_\nu\)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#531" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3.1 从四维力到三维力的推导
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      第五章总结
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    第六章：理论顶点
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>第五章：张量协奏</h1>
+
+<h2 id="_1"><strong>第五章：宇宙的交响乐——麦克斯韦方程组的张量协奏</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="_2"><strong>引言：从四座山峰到一座山脉</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>在经典物理学中，麦克斯韦方程组是四座巍峨的山峰，各自描述了电磁世界的一个侧面（电荷如何产生电场、磁场线为何闭合、变化的磁场如何产生电场、电流和变化的电场如何产生磁场）。然而，在相对论的四维时空框架下，这四座山峰被揭示为同一座宏伟山脉的不同视角。</p>
+<p>本章的使命，就是用我们在前一章构建的电磁场张量 <span class="arithmatex">\(F^{\mu\nu}\)</span>，将这四条定律重新谱写为一首和谐的、在所有参考系中都回响着同样旋律的“宇宙交响乐”。我们将看到，麦克斯韦的四条方程被完美地归入两个张量方程：</p>
+<ol>
+<li>一个描述场如何由“源”（电荷与电流）产生（<strong>有源方程</strong>）。</li>
+<li>另一个则描述场自身必须遵守的内在几何约束（<strong>无源方程</strong>）。</li>
+</ol>
+<h3 id="51-partial_mu-fmunu-mu_0-jnu"><strong>5.1 有源方程：<span class="arithmatex">\(\partial_\mu F^{\mu\nu} = \mu_0 J^\nu\)</span></strong><a class="headerlink" href="#51-partial_mu-fmunu-mu_0-jnu" title="Permanent link">&para;</a></h3>
+<p>这个方程被称为<strong>非齐次麦克斯韦方程（Inhomogeneous Maxwell's Equations）</strong>，因为它包含了源项 <span class="arithmatex">\(J^\nu\)</span>。</p>
+<blockquote>
+<p>$$
+\partial_\mu F^{\mu\nu} = \mu_0 J^\nu
+$$
+这是一个四维矢量方程，等号两边都是四维矢量，因此它等价于四个独立的标量方程（对应<span class="arithmatex">\(\nu = 0, 1, 2, 3\)</span>）。这四个方程，不多不少，正好对应着经典的高斯电场定律和安培-麦克斯韦定律。</p>
+</blockquote>
+<p><strong>核心思想：</strong> 这个方程在物理上回答了“<strong>场从何而来？</strong>”以及“<strong>源如何驱动场？</strong>”的问题。它将场的时空变化（左侧的四维散度 <span class="arithmatex">\(\partial_\mu F^{\mu\nu}\)</span>）与电荷和电流的分布（右侧的源 <span class="arithmatex">\(J^\nu\)</span>）直接联系起来。</p>
+<p><strong>展开推导的准备工作：</strong>
+*   <strong>电磁场张量 <span class="arithmatex">\(F^{\mu\nu}\)</span></strong>:
+    $$
+    F^{\mu\nu} = 
+    \begin{pmatrix}
+    0 &amp; -E_x/c &amp; -E_y/c &amp; -E_z/c \
+    E_x/c &amp; 0 &amp; -B_z &amp; B_y \
+    E_y/c &amp; B_z &amp; 0 &amp; -B_x \
+    E_z/c &amp; -B_y &amp; B_x &amp; 0
+    \end{pmatrix}
+    $$
+*   <strong>四维电流密度 <span class="arithmatex">\(J^\nu\)</span></strong>: <span class="arithmatex">\(J^\nu = (c\rho, J_x, J_y, J_z)\)</span>
+*   <strong>四维导数算符 <span class="arithmatex">\(\partial_\mu\)</span></strong>: <span class="arithmatex">\(\partial_\mu = (\partial_0, \partial_1, \partial_2, \partial_3) = (\frac{\partial}{\partial(ct)}, \frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})\)</span>
+*   <strong>展开 <span class="arithmatex">\(\partial_\mu F^{\mu\nu}\)</span></strong>: 遵循爱因斯坦求和约定对哑指标 <span class="arithmatex">\(\mu\)</span> 求和：</p>
+<div class="highlight"><pre><span></span><code>$$
+\partial_\mu F^{\mu\nu} = \partial_0 F^{0\nu} + \partial_1 F^{1\nu} + \partial_2 F^{2\nu} + \partial_3 F^{3\nu}
+$$
+</code></pre></div>
+<h4 id="511-nu0-rightarrow"><strong>5.1.1 逐分量推导：时间分量 (<span class="arithmatex">\(\nu=0\)</span>) <span class="arithmatex">\(\rightarrow\)</span> 高斯电场定律</strong><a class="headerlink" href="#511-nu0-rightarrow" title="Permanent link">&para;</a></h4>
+<p>我们令 <span class="arithmatex">\(\nu=0\)</span>，展开有源方程：
+$$
+\partial_\mu F^{\mu 0} = \mu_0 J^0 \implies \partial_0 F^{00} + \partial_1 F^{10} + \partial_2 F^{20} + \partial_3 F^{30} = \mu_0 (c\rho)
+$$
+从 <span class="arithmatex">\(F^{\mu\nu}\)</span> 矩阵中取出 <span class="arithmatex">\(\nu=0\)</span> 这一列的四个分量代入：
+<span class="arithmatex">\(F^{00}=0\)</span>, <span class="arithmatex">\(F^{10}=E_x/c\)</span>, <span class="arithmatex">\(F^{20}=E_y/c\)</span>, <span class="arithmatex">\(F^{30}=E_z/c\)</span>。
+$$
+\frac{\partial}{\partial(ct)}(0) + \frac{\partial}{\partial x}(\frac{E_x}{c}) + \frac{\partial}{\partial y}(\frac{E_y}{c}) + \frac{\partial}{\partial z}(\frac{E_z}{c}) = \mu_0 c\rho
+$$
+将常数 <span class="arithmatex">\(1/c\)</span> 提取出来：
+$$
+\frac{1}{c} (\frac{\partial E_x}{\partial x} + \frac{\partial E_y}{\partial y} + \frac{\partial E_z}{\partial z}) = \mu_0 c\rho
+$$
+我们立刻认出，括号中的项正是<strong>电场 <span class="arithmatex">\(\mathbf{E}\)</span> 的散度 <span class="arithmatex">\(\nabla \cdot \mathbf{E}\)</span></strong>。
+$$
+\frac{1}{c} (\nabla \cdot \mathbf{E}) = \mu_0 c\rho \implies \nabla \cdot \mathbf{E} = \mu_0 c^2 \rho
+$$
+最后，代入光速与真空电磁学常数之间的基本关系 <span class="arithmatex">\(c^2 = 1/(\varepsilon_0\mu_0)\)</span>:
+$$
+\nabla \cdot \mathbf{E} = \mu_0 (\frac{1}{\varepsilon_0\mu_0}) \rho \implies \boxed{\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}}
+$$
+<strong>结论：</strong> 有源张量方程的时间分量，在展开后，完美地重现了<strong>高斯电场定律</strong>。</p>
+<h4 id="512-nu123-rightarrow-"><strong>5.1.2 逐分量推导：空间分量 (<span class="arithmatex">\(\nu=1,2,3\)</span>) <span class="arithmatex">\(\rightarrow\)</span> 安培-麦克斯韦定律</strong><a class="headerlink" href="#512-nu123-rightarrow-" title="Permanent link">&para;</a></h4>
+<p>现在我们令 <span class="arithmatex">\(\nu=1\)</span>，展开有源方程的空间x分量：
+$$
+\partial_\mu F^{\mu 1} = \mu_0 J^1 \implies \partial_0 F^{01} + \partial_1 F^{11} + \partial_2 F^{21} + \partial_3 F^{31} = \mu_0 J_x
+$$
+从 <span class="arithmatex">\(F^{\mu\nu}\)</span> 矩阵中取出 <span class="arithmatex">\(\nu=1\)</span> 这一列的四个分量代入：
+<span class="arithmatex">\(F^{01}=-E_x/c\)</span>, <span class="arithmatex">\(F^{11}=0\)</span>, <span class="arithmatex">\(F^{21}=-B_z\)</span>, <span class="arithmatex">\(F^{31}=B_y\)</span>。
+$$
+\frac{\partial}{\partial(ct)}(-\frac{E_x}{c}) + \frac{\partial}{\partial x}(0) + \frac{\partial}{\partial y}(-B_z) + \frac{\partial}{\partial z}(B_y) = \mu_0 J_x
+$$
+$$
+-\frac{1}{c^2} \frac{\partial E_x}{\partial t} - \frac{\partial B_z}{\partial y} + \frac{\partial B_y}{\partial z} = \mu_0 J_x
+$$
+整理一下，并将 <span class="arithmatex">\(\frac{\partial B_y}{\partial z} - \frac{\partial B_z}{\partial y}\)</span> 识别为<strong>磁场旋度 <span class="arithmatex">\((\nabla \times \mathbf{B})\)</span> 的 x 分量</strong>。
+$$
+(\nabla \times \mathbf{B})_x = \mu_0 J_x + \frac{1}{c^2} \frac{\partial E_x}{\partial t}
+$$
+再次代入 <span class="arithmatex">\(1/c^2 = \varepsilon_0\mu_0\)</span>：
+$$
+(\nabla \times \mathbf{B})_x = \mu_0 J_x + \varepsilon_0\mu_0 \frac{\partial E_x}{\partial t}
+$$
+<strong>结论：</strong> 有源张量方程的空间x分量，完美重现了<strong>安培-麦克斯韦定律的x分量</strong>。同理，当 <span class="arithmatex">\(\nu=2\)</span> 和 <span class="arithmatex">\(\nu=3\)</span> 时，我们会分别得到该定律的y分量和z分量。将这三个空间分量合并为一个矢量方程，我们就得到了完整的<strong>安培-麦克斯韦定律</strong>：
+$$
+\boxed{\nabla \times \mathbf{B} = \mu_0\mathbf{J} + \varepsilon_0\mu_0 \frac{\partial \mathbf{E}}{\partial t}}
+$$</p>
+<h3 id="52"><strong>5.2 无源方程：比安基恒等式的物理回响</strong><a class="headerlink" href="#52" title="Permanent link">&para;</a></h3>
+<p>这个方程被称为<strong>齐次麦克斯韦方程（Homogeneous Maxwell's Equations）</strong>，因为它不包含源项。</p>
+<blockquote>
+<div class="arithmatex">\[
+\partial_\lambda F_{\mu\nu} + \partial_\mu F_{\nu\lambda} + \partial_\nu F_{\lambda\mu} = 0
+\]</div>
+<p>这是一个对三个指标进行轮换求和并置零的方程。</p>
+</blockquote>
+<p><strong>核心思想：</strong> 这个方程不关心场是“谁生的”，只规定了场一旦存在，其<strong>自身的几何结构和演化规则</strong>必须是什么样的。</p>
+<blockquote>
+<p><strong>【数学起源：势存在的必然结果】</strong></p>
+<p>这个方程，在数学上被称为<strong>比安基恒等式（Bianchi Identity）</strong>。它并不是一条独立的物理定律，而是 <span class="arithmatex">\(F_{\mu\nu}\)</span> 由四维势 <span class="arithmatex">\(A_\mu\)</span> 定义（<span class="arithmatex">\(F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu\)</span>）的一个直接的、自动满足的数学推论。
+$$
+\partial_\lambda (\partial_\mu A_\nu - \partial_\nu A_\mu) + \partial_\mu (\partial_\nu A_\lambda - \partial_\lambda A_\nu) + \partial_\nu (\partial_\lambda A_\mu - \partial_\mu A_\lambda) = 0
+$$
+展开后，所有项都会因为二阶偏导数可以交换次序而两两抵消。因此，它比有源方程更根本，因为它反映了“势”的存在。任何可以由一个势场派生出来的场，都必须自动满足这个比安基恒等式。</p>
+</blockquote>
+<h4 id="521-lambda-mu-nu-123-rightarrow"><strong>5.2.1 纯空间分量 (<span class="arithmatex">\(\lambda, \mu, \nu = 1,2,3\)</span>) <span class="arithmatex">\(\rightarrow\)</span> 高斯磁定律</strong><a class="headerlink" href="#521-lambda-mu-nu-123-rightarrow" title="Permanent link">&para;</a></h4>
+<p>我们选择一组纯粹的空间指标：<span class="arithmatex">\((\lambda, \mu, \nu) = (1, 2, 3)\)</span>。
+<span class="arithmatex">\(\partial_1 F_{23} + \partial_2 F_{31} + \partial_3 F_{12} = 0\)</span>
+从 <span class="arithmatex">\(F_{\mu\nu}\)</span> （下标形式）矩阵中取出对应的分量代入（<span class="arithmatex">\(F_{23}=B_x\)</span>, <span class="arithmatex">\(F_{31}=B_y\)</span>, <span class="arithmatex">\(F_{12}=B_z\)</span>）：
+$$
+\frac{\partial B_x}{\partial x} + \frac{\partial B_y}{\partial y} + \frac{\partial B_z}{\partial z} = 0 \implies \boxed{\nabla \cdot \mathbf{B} = 0}
+$$
+<strong>结论：</strong> 无源方程的纯空间分量，完美重现了<strong>高斯磁定律</strong>。它等价于宣称<strong>宇宙中不存在磁单极子（磁荷）</strong>。</p>
+<h4 id="522-lambda0-mu-nu-123-rightarrow"><strong>5.2.2 时空混合分量 (<span class="arithmatex">\(\lambda=0, \mu, \nu = 1,2,3\)</span>) <span class="arithmatex">\(\rightarrow\)</span> 法拉第电磁感应定律</strong><a class="headerlink" href="#522-lambda0-mu-nu-123-rightarrow" title="Permanent link">&para;</a></h4>
+<p>现在我们选择一组包含时间指标<code>0</code>的混合分量：<span class="arithmatex">\((\lambda, \mu, \nu) = (0, 1, 2)\)</span>。
+<span class="arithmatex">\(\partial_0 F_{12} + \partial_1 F_{20} + \partial_2 F_{01} = 0\)</span>
+从 <span class="arithmatex">\(F_{\mu\nu}\)</span> 矩阵中取出对应的分量代入（<span class="arithmatex">\(F_{12}=B_z\)</span>, <span class="arithmatex">\(F_{20}=-E_y/c\)</span>, <span class="arithmatex">\(F_{01}=E_x/c\)</span>）：
+$$
+\frac{\partial}{\partial(ct)}(B_z) + \frac{\partial}{\partial x}(-E_y/c) + \frac{\partial}{\partial y}(E_x/c) = 0
+$$
+方程两边同乘以 <span class="arithmatex">\(c\)</span> 并整理：
+$$
+\frac{\partial B_z}{\partial t} - \frac{\partial E_y}{\partial x} + \frac{\partial E_x}{\partial y} = 0 \implies \frac{\partial E_y}{\partial x} - \frac{\partial E_x}{\partial y} = -\frac{\partial B_z}{\partial t}
+$$
+左边是<strong>电场旋度 <span class="arithmatex">\((\nabla \times \mathbf{E})\)</span> 的 z 分量</strong>。
+<span class="arithmatex">\((\nabla \times \mathbf{E})_z = -\frac{\partial B_z}{\partial t}\)</span>
+<strong>结论：</strong> 选择不同的时空混合分量，将分别得到法拉第定律的x, y, z分量，合并后即为完整的<strong>法拉第电磁感应定律</strong>：
+$$
+\boxed{\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}}
+$$</p>
+<h3 id="53-fmu-q-fmunu-u_nu"><strong>5.3 四维洛伦兹力：<span class="arithmatex">\(f^\mu = q F^{\mu\nu} u_\nu\)</span></strong><a class="headerlink" href="#53-fmu-q-fmunu-u_nu" title="Permanent link">&para;</a></h3>
+<p>我们已经有了描述场如何产生和演化的方程，最后还需要一个方程来描述<strong>场如何作用于物质</strong>。这由四维形式的洛伦兹力定律给出。</p>
+<blockquote>
+<p>$$
+f^\mu = q F^{\mu\nu} u_\nu
+$$
+*   <span class="arithmatex">\(f^\mu\)</span> 是<strong>四维力（闵可夫斯基力）</strong>。它的时间分量 <span class="arithmatex">\(f^0\)</span> 描述了功率（能量变化率），空间分量 <span class="arithmatex">\((f^1, f^2, f^3)\)</span> 构成了我们熟悉的三维力 <span class="arithmatex">\(\mathbf{F}\)</span>。
+*   <span class="arithmatex">\(u_\nu\)</span> 是粒子的<strong>四维速度</strong>：<span class="arithmatex">\(u_\nu = (\gamma c, -\gamma\mathbf{v})\)</span>。</p>
+</blockquote>
+<h4 id="531"><strong>5.3.1 从四维力到三维力的推导</strong><a class="headerlink" href="#531" title="Permanent link">&para;</a></h4>
+<p>我们来展开 <span class="arithmatex">\(f^\mu\)</span> 的空间分量，以 <span class="arithmatex">\(f^1\)</span> 为例：
+<span class="arithmatex">\(f^1 = q F^{1\nu} u_\nu = q(F^{10}u_0 + F^{11}u_1 + F^{12}u_2 + F^{13}u_3)\)</span>
+代入 <span class="arithmatex">\(F^{\mu\nu}\)</span> 和 <span class="arithmatex">\(u_\nu\)</span> 的分量：
+<span class="arithmatex">\(f^1 = q [ (\frac{E_x}{c})(\gamma c) + (0)(-\gamma v_x) + (-B_z)(-\gamma v_y) + (B_y)(-\gamma v_z) ]\)</span>
+<span class="arithmatex">\(f^1 = q\gamma [ E_x + (v_y B_z - v_z B_y) ]\)</span>
+我们认出 <span class="arithmatex">\(v_y B_z - v_z B_y\)</span> 正是矢量叉乘 <span class="arithmatex">\((\mathbf{v} \times \mathbf{B})\)</span> 的 x 分量。
+<span class="arithmatex">\(f^1 = q\gamma [ E_x + (\mathbf{v} \times \mathbf{B})_x ] = \gamma F_x\)</span>
+在相对论中，三维力 <span class="arithmatex">\(\mathbf{F}\)</span> 与四维力空间分量 <span class="arithmatex">\(\mathbf{f}\)</span> 的关系是 <span class="arithmatex">\(\mathbf{f} = \gamma \mathbf{F}\)</span>。因此，我们重现了经典的三维<strong>洛伦兹力定律</strong>：
+$$
+\boxed{\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})}
+$$</p>
+<h3 id="_3"><strong>第五章总结</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>我们见证了物理学史上最美妙的统一之一。麦克斯韦的四条经典方程，被证明只是两个更根本的四维张量方程在三维世界中的不同“投影”：
+1.  <strong>有源方程 <span class="arithmatex">\(\partial_\mu F^{\mu\nu} = \mu_0 J^\nu\)</span></strong>：一个四维矢量方程，包含了<strong>高斯电场定律</strong>和<strong>安培-麦克斯韦定律</strong>。它告诉我们，<strong>源（电荷与电流）是电磁场张量的“四维散度”</strong>。
+2.  <strong>无源方程 (比安基恒等式)</strong>：一个自动满足的几何约束，包含了<strong>高斯磁定律</strong>和<strong>法拉第电磁感应定律</strong>。它告诉我们，<strong>电磁场必须可以由一个四维势<span class="arithmatex">\(A^\mu\)</span>导出</strong>，这等价于磁单极子不存在。</p>
+<p>再加上描述“场与物质”相互作用的四维洛伦兹力，整个经典电磁动力学的宏伟画卷，便以一种前所未有的简洁、和谐与深刻的方式，完整地展现在我们面前。</p>
+<hr />
+<blockquote>
+<p><strong>【本章思考题】</strong></p>
+<ol>
+<li>(基础) 电荷守恒定律的微分形式是 <span class="arithmatex">\(\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = 0\)</span>。请证明，这个定律可以从有源麦克斯韦方程 <span class="arithmatex">\(\partial_\mu F^{\mu\nu} = \mu_0 J^\nu\)</span> 中自动推导出来。（提示：对该方程两边同时求四维散度 <span class="arithmatex">\(\partial_\nu\)</span>，并利用 <span class="arithmatex">\(F^{\mu\nu}\)</span> 的反对称性）。</li>
+<li>(进阶) 如果未来的实验真的发现了磁单极子，这意味着 <span class="arithmatex">\(\nabla \cdot \mathbf{B} \neq 0\)</span>，那么比安基恒等式将被打破。这将对我们理论的哪个最基本假设构成挑战？我们可能需要引入什么新的物理量来修正无源方程？（提示：思考电荷与电流如何构成四维电流密度 <span class="arithmatex">\(J^\nu\)</span>）。</li>
+</ol>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+    
+  </body>
+</html>
