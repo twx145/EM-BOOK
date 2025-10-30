@@ -1,0 +1,18 @@
+# Netlify Build Configuration
+# This file gives explicit instructions to the build server.
+
+[build]
+  # 1. Base directory: Where your project is located.
+  base = "electromagnetism-book"
+
+  # 2. Publish directory: Where the final site is generated.
+  #    This is relative to the repository root.
+  publish = "electromagnetism-book/site"
+
+  # 3. Build command: The most critical part.
+  #    We manually tell it to install dependencies first, then build.
+  command = "pip install -r requirements.txt && mkdocs build"
+
+[build.environment]
+  # 4. Environment variables: Force Netlify to use a specific Python version.
+  PYTHON_VERSION = "3.9"
