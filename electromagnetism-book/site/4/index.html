@@ -50,6 +50,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -228,6 +230,25 @@
   
   
     <li class="md-tabs__item">
+      <a href="../%E5%89%8D%E8%A8%80/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  前言
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
       <a href="../1/" class="md-tabs__link">
         
   
@@ -338,6 +359,25 @@
   
 
       
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../%E5%90%8E%E8%AE%B0/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  后记
+
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -386,6 +426,28 @@
   
   <span class="md-ellipsis">
     首页
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%89%8D%E8%A8%80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    前言
     
   </span>
   
@@ -691,6 +753,28 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%90%8E%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    后记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -727,11 +811,13 @@
 <ol>
 <li>
 <p><strong>利用高斯磁定律 <span class="arithmatex">\(\nabla \cdot \mathbf{B} = 0\)</span></strong>：
-    这条定律的数学形式，与恒等式1完全一致。这启发我们，既然 <span class="arithmatex">\(\mathbf{B}\)</span> 场的散度处处为零，那么它<strong>总是可以</strong>被表示为另一个矢量场 <span class="arithmatex">\(\mathbf{A}\)</span> 的旋度。我们称 <span class="arithmatex">\(\mathbf{A}\)</span> 为<strong>磁矢量势（Magnetic Vector Potential）</strong>。
-    &gt; $$
-    &gt; \mathbf{B} \equiv \nabla \times \mathbf{A}
-    &gt; $$
-    只要 <span class="arithmatex">\(\mathbf{B}\)</span> 这样定义，高斯磁定律就自动满足了，不再需要单独求解。</p>
+    这条定律的数学形式，与恒等式1完全一致。这启发我们，既然 <span class="arithmatex">\(\mathbf{B}\)</span> 场的散度处处为零，那么它<strong>总是可以</strong>被表示为另一个矢量场 <span class="arithmatex">\(\mathbf{A}\)</span> 的旋度。我们称 <span class="arithmatex">\(\mathbf{A}\)</span> 为<strong>磁矢量势（Magnetic Vector Potential）</strong>。</p>
+<blockquote>
+<div class="arithmatex">\[
+\mathbf{B} \equiv \nabla \times \mathbf{A}
+\]</div>
+</blockquote>
+<p>只要 <span class="arithmatex">\(\mathbf{B}\)</span> 这样定义，高斯磁定律就自动满足了，不再需要单独求解。</p>
 </li>
 <li>
 <p><strong>利用法拉第电磁感应定律 <span class="arithmatex">\(\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}\)</span></strong>：
@@ -743,10 +829,12 @@
     <span class="arithmatex">\(\nabla \times (\mathbf{E} + \frac{\partial \mathbf{A}}{\partial t}) = 0\)</span>
     这个组合 <span class="arithmatex">\((\mathbf{E} + \frac{\partial \mathbf{A}}{\partial t})\)</span> 的旋度为零，根据恒等式2，它<strong>总是可以</strong>被表示为某个标量场 <span class="arithmatex">\(V\)</span> 的负梯度。我们称 <span class="arithmatex">\(V\)</span> 为<strong>电标势（Electric Scalar Potential）</strong>，也就是我们熟知的电势。
     <span class="arithmatex">\(\mathbf{E} + \frac{\partial \mathbf{A}}{\partial t} = -\nabla V\)</span>
-    整理后，我们得到电场 <span class="arithmatex">\(\mathbf{E}\)</span> 的表达式：
-    &gt; $$
-    &gt; \mathbf{E} = -\nabla V - \frac{\partial \mathbf{A}}{\partial t}
-    &gt; $$</p>
+    整理后，我们得到电场 <span class="arithmatex">\(\mathbf{E}\)</span> 的表达式：</p>
+<blockquote>
+<div class="arithmatex">\[
+\mathbf{E} = -\nabla V - \frac{\partial \mathbf{A}}{\partial t}
+\]</div>
+</blockquote>
 </li>
 </ol>
 <p><strong>经典结论</strong>：早在相对论诞生前，物理学就已揭示，可被直接测量的 <span class="arithmatex">\(\mathbf{E}\)</span> 和 <span class="arithmatex">\(\mathbf{B}\)</span> 场，可以由两个更基本的、但更抽象的“势”——一个标量 <span class="arithmatex">\(V\)</span> 和一个矢量 <span class="arithmatex">\(\mathbf{A}\)</span>——通过微分运算派生出来。</p>
@@ -785,20 +873,23 @@ $$
     <span class="arithmatex">\(A'_x = \gamma(A_x - \frac{v}{c}(\frac{V}{c})) = \gamma(A_x - \frac{v}{c^2}V)\)</span>
     <strong>完美吻合！</strong></p>
 <ol>
-<li><strong>检验时间分量 <span class="arithmatex">\(A'^0\)</span></strong>：
+<li>
+<p><strong>检验时间分量 <span class="arithmatex">\(A'^0\)</span></strong>：
     <span class="arithmatex">\(A'^0 = \gamma(A^0 - \frac{v}{c}A^1)\)</span>。将我们的假设 <span class="arithmatex">\(A'^0=V'/c\)</span>, <span class="arithmatex">\(A^0=V/c\)</span> 和 <span class="arithmatex">\(A^1=A_x\)</span> 代入：
-    <span class="arithmatex">\(V'/c = \gamma(\frac{V}{c} - \frac{v}{c}A_x)\)</span>。方程两边同乘以 <span class="arithmatex">\(c\)</span>：
-    <span class="arithmatex">\(V' = \gamma(V - vA_x)\)</span>
-    <strong>再次完美吻合！</strong></li>
+    <span class="arithmatex">\(V'/c = \gamma(\frac{V}{c} - \frac{v}{c}A_x)\)</span>。
+    方程两边同乘以 <span class="arithmatex">\(c\)</span>：
+    <span class="arithmatex">\(V' = \gamma(V - vA_x)\)</span></p>
+<p><strong>再次完美吻合！</strong></p>
+</li>
 </ol>
-<blockquote>
 <p><strong>最终结论</strong></p>
-<p>这个惊人的一致性，让我们得以充满信心地做出这个物理学史上最重要的“指认”之一：电势 <span class="arithmatex">\(V\)</span> 和磁矢量势 <span class="arithmatex">\(\mathbf{A}\)</span> 并非两个独立的实体，它们正是<strong>同一个四维矢量势 <span class="arithmatex">\(A^\mu\)</span> 的时间和空间分量</strong>。
-$$
+<p>这个惊人的一致性，让我们得以充满信心地做出这个物理学史上最重要的“指认”之一：电势 <span class="arithmatex">\(V\)</span> 和磁矢量势 <span class="arithmatex">\(\mathbf{A}\)</span> 并非两个独立的实体，它们正是<strong>同一个四维矢量势 <span class="arithmatex">\(A^\mu\)</span> 的时间和空间分量</strong>。</p>
+<blockquote>
+<div class="arithmatex">\[
 A^\mu = (V/c, \mathbf{A}) = (A^0, A^1, A^2, A^3)
-$$</p>
-<p>至此，电与磁的统一，在“势”这个更深的层次上，被相对论的四维时空框架完美地实现了。</p>
+\]</div>
 </blockquote>
+<p>至此，电与磁的统一，在“势”这个更深的层次上，被相对论的四维时空框架完美地实现了。</p>
 <h3 id="42-fmunu"><strong>4.2 电磁场张量 <span class="arithmatex">\(F^{\mu\nu}\)</span>：规范不变的物理实在</strong><a class="headerlink" href="#42-fmunu" title="Permanent link">&para;</a></h3>
 <p><span class="arithmatex">\(A^\mu\)</span> 虽然根本，但它有一个“缺陷”：它是规范依赖的。这意味着我们可以对 <span class="arithmatex">\(A^\mu\)</span> 进行规范变换 <span class="arithmatex">\(A'_\mu = A_\mu - \partial_\mu f\)</span>，而不会改变任何可观测的物理结果。因此，<span class="arithmatex">\(A^\mu\)</span> 本身不代表一个可直接测量的物理量。</p>
 <p>我们需要从 <span class="arithmatex">\(A^\mu\)</span> 出发，构建一个<strong>规范不变</strong>的、代表着物理实在的量。这个量，就是<strong>电磁场张量 <span class="arithmatex">\(F^{\mu\nu}\)</span></strong>。</p>

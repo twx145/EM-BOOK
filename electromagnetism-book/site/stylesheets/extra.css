@@ -1,0 +1,19 @@
+/*
+ * 终极自定义引用块样式
+ * 目标：强行覆盖主题颜色，保留边框和结构
+ */
+
+/* 强制修改浅色模式下引用块的文字颜色为纯黑 */
+[data-md-color-scheme="default"] .md-typeset blockquote {
+  color: #4CAF50 !important;
+  background-color: transparent !important;
+}
+
+/* 
+ * 强制修改深色模式下的样式
+ * 目标：保留边框，背景为稍亮的深色，文字为白色
+ */
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+  background-color: #2e303e !important;
+  color: #BDBDBD !important;
+}
