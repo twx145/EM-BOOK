@@ -7,7 +7,7 @@
 
   # 2. Publish directory: Where the final site is generated.
   #    This is relative to the repository root.
-  publish = "electromagnetism-book/site"
+  publish = "site"
 
   # 3. Build command: The most critical part.
   #    We manually tell it to install dependencies first, then build.
