@@ -66,9 +66,9 @@ graph TD
     H -->|最小作用量原理| I[拉格朗日量 L]
     I -->|万有理论展望| J{终极统一}
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style I fill:#bbf,stroke:#333,stroke-width:2px
-    style J fill:#bfb,stroke:#333,stroke-width:4px
+    style A fill:#6fa3ef,stroke:#333,stroke-width:2px
+    style I fill:#e67e22,stroke:#333,stroke-width:2px  
+    style J fill:#2ecc71,stroke:#333,stroke-width:3px  
 ```
 
 ---
