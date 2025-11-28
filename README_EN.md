@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://via.placeholder.com/1000x300/000000/FFFFFF?text=Modern+Electromagnetism:+From+Intuition+to+Unification" alt="Banner" width="100%" />
+<img src="https://github.com/user-attachments/assets/06cac393-39db-4ab8-af96-eb1970825c41" alt="Banner" width="100%" />
 
 # ⚡ Modern Electromagnetism: Deep Analysis
 ### From Classical Intuition to Ultimate Unification
