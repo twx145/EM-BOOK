@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 顶部 Logo 或 Banner -->
-<img src="https://via.placeholder.com/1000x300/000000/FFFFFF?text=Modern+Electromagnetism:+From+Intuition+to+Unification" alt="Banner" width="100%" />
+<img  alt="Generated Image November 07, 2025 - 11_28PM" src="https://github.com/user-attachments/assets/06cac393-39db-4ab8-af96-eb1970825c41" alt="Banner" width="80%" />
 
 # ⚡ 现代电磁理论深度解析
 ### 从经典直觉到终极统一
@@ -95,15 +95,14 @@ graph TD
 ### 2. 费曼图解析
 将复杂的量子相互作用转化为直观的几何图形。
 <div align="center">
-  <!-- 建议在此处放一张您书中绘制的费曼图截图 -->
   <pre>
-      e-         e-
+       e-        e-
        \       /
-        \     /
-         \~~~/(γ)
-         /   \
-        /     \
-      e-         e-
+       \     /
+          \~~~/(γ)
+       /   \
+       /     \
+        e-       e-
   </pre>
   <p><i>电子-电子散射（库仑排斥）的微观图像：交换虚光子</i></p>
 </div>
