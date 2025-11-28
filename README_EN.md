@@ -7,12 +7,7 @@
 
 <!-- Language Switcher -->
 <p align="center">
-    <a href="./README_EN.md">
-        <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge" alt="English">
-    </a>
-    <a href="./README.md">
-        <img src="https://img.shields.io/badge/语言-简体中文-red?style=for-the-badge" alt="Chinese">
-    </a>
+    <a href="./README_EN.md"><img src="https://img.shields.io/badge/Language-English-333333?style=flat-square" alt="English"></a> <a href="./README.md"><img src="https://img.shields.io/badge/语言-简体中文-333333?style=flat-square" alt="Chinese"></a>
 </p>
 
 <!-- Badges -->
