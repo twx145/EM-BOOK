@@ -65,9 +65,9 @@ graph TD
     H -->|Principle of Least Action| I[Lagrangian L]
     I -->|Outlook on ToE| J{Ultimate Unification}
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style I fill:#bbf,stroke:#333,stroke-width:2px
-    style J fill:#bfb,stroke:#333,stroke-width:4px
+    style A fill:#6fa3ef,stroke:#333,stroke-width:2px
+    style I fill:#e67e22,stroke:#333,stroke-width:2px  
+    style J fill:#2ecc71,stroke:#333,stroke-width:3px  
 ```
 
 ---
@@ -95,13 +95,13 @@ Why does a stationary charge feel no magnetic force, even if a magnetic field sw
 Visualizing complex quantum interactions.
 <div align="center">
   <pre>
-      e-         e-
+       e-        e-
        \       /
-        \     /
-         \~~~/(γ)
-         /   \
-        /     \
-      e-         e-
+       \     /
+          \~~~/(γ)
+       /   \
+       /     \
+        e-       e-
   </pre>
   <p><i>Microscopic view of Electron-Electron Scattering: Exchanging a virtual photon</i></p>
 </div>
